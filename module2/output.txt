@@ -1,0 +1,6 @@
+Summation is = 17 
+Multiplication is = 13 
+Multiply is = 30 
+Division is = 7 
+Division is = 7.000000 
+Modulus is 1 
