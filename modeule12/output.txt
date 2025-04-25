@@ -1,2 +1,2 @@
--100
-A is smaller
+99
+B is smaller
