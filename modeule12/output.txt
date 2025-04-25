@@ -1,1 +1,2 @@
-Equal
+-100
+A is smaller
