@@ -9,7 +9,11 @@ int main(){
        scanf("%d", &a[i]);
     }
     int fre[6] = {0};
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++){
+      int val = a[i];
+      fre[val]++;
+    }
+    /*for (int i = 0; i < n; i++)
     {
        if(a[i]==0){
         fre[0]++;
@@ -25,14 +29,18 @@ int main(){
         fre[5]++;
        }
        
-    }
+    } */
 
-    printf("%d -> %d\n",0, fre[0] );
-    printf("%d -> %d\n",1, fre[1] );
-    printf("%d -> %d\n",2, fre[2] );
-    printf("%d -> %d\n",3, fre[3] );
-    printf("%d -> %d\n",4, fre[4] );
-    printf("%d -> %d\n",5, fre[5] );
+   //  printf("%d -> %d\n",0, fre[0] );
+   //  printf("%d -> %d\n",1, fre[1] );
+   //  printf("%d -> %d\n",2, fre[2] );
+   //  printf("%d -> %d\n",3, fre[3] );
+   //  printf("%d -> %d\n",4, fre[4] );
+   //  printf("%d -> %d\n",5, fre[5] );
+    for (int i = 0; i < 6; i++)
+    {
+      printf("%d -> %d\n", i, fre[i]);
+    }
     
     
     return 0;
