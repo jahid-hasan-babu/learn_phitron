@@ -12,9 +12,9 @@ int main(){
             printf(" ");
         }
         
-        for (int j = 1; j <=  star; j++)
+        for (int j = i; j >= 1; j--)
         {
-            printf("*");
+            printf("%d", j);
         }
     
        printf("\n");
